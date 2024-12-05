@@ -91,9 +91,12 @@ This platform introduces innovative functionalities such as:
    - End-to-end encryption for secure data handling.  
    - Role-based access controls for admins, users, and moderators.  
 
+ # Architecture Diagram
 
+![image](https://github.com/user-attachments/assets/08242a3b-6b3f-455a-aaf8-bc6202a4cb5a)
+![NoteGPT-Flowchart-1733366946364](https://github.com/user-attachments/assets/32c7573e-c4e8-4c44-aef4-e7161d4a12dc)
+![NoteGPT-Flowchart-1733366982778](https://github.com/user-attachments/assets/3f2a24da-12a6-4b0c-a925-8437b7fba1c0)
 
-#### **Development Phases**  
 
 
 

@@ -167,3 +167,22 @@ This platform introduces innovative functionalities such as:
 
 ## Dependencies
 
+1. **APIs**  
+   - **Alumni Data Integration**: APIs to sync existing alumni data from institutional databases or ERP systems.  
+   - **Third-Party APIs**: For social login (Google, LinkedIn), payment processing, and analytics integration.  
+
+2. **Third-Party Services**  
+   - **Payment Gateways**: Razorpay (domestic) and Stripe (international) to facilitate donations with tax receipt generation.  
+   - **Cloud Hosting**: AWS or GCP for flexible and scalable infrastructure to handle high traffic and storage demands.  
+   - **Notification Services**: Firebase Cloud Messaging for real-time notifications about events and updates.  
+
+3. **Team Collaboration Tools**  
+   - **Jira**: For agile project management, tracking tasks, and ensuring on-time delivery.  
+   - **Slack**: For team communication, especially during development and testing phases.  
+   - **Microsoft Teams**: As an alternative collaboration tool for meetings and resource sharing.  
+
+4. **Testing Tools**  
+   - **Selenium**: For automated UI testing to ensure web application stability across browsers.  
+   - **Postman**: For testing APIs during backend development and integration.  
+   - **Jest**: For unit testing in the React.js frontend and backend logic.  
+

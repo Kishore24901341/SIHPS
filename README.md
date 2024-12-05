@@ -94,7 +94,13 @@ This platform introduces innovative functionalities such as:
  # Architecture Diagram
 
 ![image](https://github.com/user-attachments/assets/08242a3b-6b3f-455a-aaf8-bc6202a4cb5a)
+
+
+
 ![NoteGPT-Flowchart-1733366946364](https://github.com/user-attachments/assets/32c7573e-c4e8-4c44-aef4-e7161d4a12dc)
+
+
+
 ![NoteGPT-Flowchart-1733366982778](https://github.com/user-attachments/assets/3f2a24da-12a6-4b0c-a925-8437b7fba1c0)
 
 
@@ -102,8 +108,61 @@ This platform introduces innovative functionalities such as:
 
 ## Use Cases
 
+1. **Alumni-Centric Mentorship Matching**  
+   - **Description**: An AI-driven system matches alumni with students or other alumni based on skills, career goals, and interests.  
+   - **Benefit**: Facilitates targeted mentorship, improving career outcomes and professional development for both mentors and mentees.  
+
+2. **Crowdsourced Projects**  
+   - **Description**: Alumni can propose community or campus improvement projects and collectively fund and support them.  
+   - **Benefit**: Builds a sense of ownership and collaboration while addressing specific institutional needs.  
+
+3. **Event Gamification**  
+   - **Description**: Introduces point systems for alumni attending events, workshops, and reunions, with leaderboards and rewards.  
+   - **Benefit**: Boosts event participation through friendly competition and recognition.  
+
+4. **Alumni-Led Learning Modules**  
+   - **Description**: Alumni create and host micro-courses or webinars on trending topics for the community.  
+   - **Benefit**: Encourages knowledge sharing while positioning the institution as a hub for lifelong learning.  
+
+5. **Real-Time Networking Assistant**  
+   - **Description**: A smart assistant that suggests connections during events or meetups based on mutual interests or industry overlap.  
+   - **Benefit**: Enhances networking opportunities by making meaningful connections effortless.  
+
+6. **Alumni Impact Tracker**  
+   - **Description**: Tracks and showcases alumni contributions (donations, mentorship hours, success stories) on personalized dashboards.  
+   - **Benefit**: Recognizes and motivates continuous engagement by quantifying impact.  
+
+7. **Exclusive Job Marketplace**  
+   - **Description**: A private job portal where alumni post and prioritize opportunities for fellow alumni or graduating students.  
+   - **Benefit**: Strengthens community ties and creates unique career opportunities.  
+
+8. **Virtual Reunion Spaces**  
+   - **Description**: Offers VR-powered or digital meeting rooms for alumni to reconnect, especially for global members unable to attend physical events.  
+   - **Benefit**: Ensures inclusivity and fosters relationships across geographic boundaries.  
+
+
 
 ## Technology Stack
+
+
+| **Component**          | **Technology**                                                                                                                                  | **Purpose**                                                                                     |
+|-------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Frontend**            | **React.js**                                                                                                                                    | To build a responsive and dynamic web interface for users, ensuring a seamless user experience. |
+|                         | **Flutter**                                                                                                                                     | For developing cross-platform mobile applications with a single codebase for iOS and Android.  |
+| **Backend**             | **Node.js**                                                                                                                                    | For developing a high-performance, scalable backend using JavaScript.                          |
+|                         | **Django**                                                                                                                                      | Python-based framework for rapid development and secure handling of backend operations.        |
+| **Database**            | **PostgreSQL**                                                                                                                                  | A robust relational database for storing structured data such as user profiles and donations.  |
+|                         | **MongoDB**                                                                                                                                    | A NoSQL database for managing unstructured data like event logs, chat messages, and metadata.  |
+| **Cloud Services**      | **AWS (Amazon Web Services)**                                                                                                                   | For hosting the application, managing storage (S3), and providing scalable infrastructure.     |
+|                         | **Google Cloud Platform (GCP)**                                                                                                                | Alternative to AWS for hosting and leveraging tools like Firebase.                            |
+| **Authentication**      | **OAuth 2.0**                                                                                                                                   | Ensures secure login via third-party providers (Google, LinkedIn, etc.).                       |
+|                         | **JWT (JSON Web Tokens)**                                                                                                                       | For secure, stateless user sessions.                                                          |
+| **Payment Gateway**     | **Razorpay**                                                                                                                                     | Enables secure donation handling with support for Indian currency and local payment methods.   |
+|                         | **Stripe**                                                                                                                                      | For global payment processing, offering extensive customization.                              |
+| **Notifications**       | **Firebase Cloud Messaging (FCM)**                                                                                                              | To send push notifications for events, reminders, and platform updates.                       |
+| **Version Control**     | **GitHub**                                                                                                                                       | For source code management, version control, and collaboration.                               |
+|                         | **GitLab**                                                                                                                                      | Alternative to GitHub, offering integrated CI/CD pipelines for deployment automation.          |
+
 
 
 ## Dependencies
